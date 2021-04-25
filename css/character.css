@@ -16,3 +16,8 @@
     
 }
 #character .line{ width: calc(100% - 20px); height: 1px; background: #71788d; margin-top: 20px; /*position: absolute; left:10px*/ }
+
+@media(min-width:768px){ /* 768 이상*/
+    #character{width: 100%;}
+
+}

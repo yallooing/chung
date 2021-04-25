@@ -33,3 +33,11 @@
 }
 /* #epilogue .cont:nth-child(4) .txt{} */
 
+@media(max-width:768px){ /* 768 이상*/
+    #epilogue{  width: 100%; display: block;}
+    #epilogue .cont{  width: 100%;  display: block;}
+    #epilogue .cont .img{  width: 100%; height: 240px;display: block;}
+    #epilogue .cont .txt{  width: 100%; height: 240px;display: block; margin: 240px 0;}
+
+
+}

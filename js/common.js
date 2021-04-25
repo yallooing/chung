@@ -55,7 +55,7 @@ $(document).ready(function(){
             $(this).addClass("active");
             return false;
         });
-        //클릭시 메뉴 active 효과 적용 안됌
+        //클릭시 메뉴 active 효과 적용 안됌 -?왜 
 
     //epilogue
         $("nav li:eq(3)").click(function(){
